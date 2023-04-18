@@ -84,7 +84,7 @@ Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını alt
 
     15) Öğrenci tablosunda doğum yılı 1989 olan öğrencileri listeleyiniz.
     	CEVAP:  select * from ogrenci
-    			where dtarih like "1989%"
+    			where year (dtarih)=1989
 
     16) Öğrenci numarası 30 ile 50 arasında olan Kız öğrencileri listeleyiniz.
     	CEVAP:  select * from ogrenci
